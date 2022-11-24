@@ -22,6 +22,9 @@ def signin():
         root.geometry('925x500+300+200')
         root.configure(bg='#fff')
         root.resizable(False,False)
+
+        label=Label(Frame,text="Login Successfully",fg='green',bg='white',font=('Microsoft YaHei UI Light',9))
+        label.place(x=120,y=180)
         
         
         Label(root,text='Welcome THOMPSON',bg='#fff', font=('calibri(Body)',50,'bold')).pack(expand=True)
